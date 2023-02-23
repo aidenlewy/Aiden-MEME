@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.caption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.meme-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.funny-list {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .caption {
+    font-size: 1.
